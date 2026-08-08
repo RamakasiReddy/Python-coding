@@ -1,0 +1,16 @@
+list = []
+
+stud1 = int(input("Enter the  marks of student 1: "))
+list.append(stud1)
+stud2 = int(input("Enter the  marks of student 2: "))
+list.append(stud2)
+stud3 = int(input("Enter the marks of student 3: "))
+list.append(stud3)
+stud4 = int(input("Enter the marks of student 4: "))
+list.append(stud4)
+stud5 = int(input("Enter the  marks of student 5: "))
+list.append(stud5)
+stud6 = int(input("Enter the  marks of student 6: "))
+list.append(stud6)
+list.sort()
+print(list)

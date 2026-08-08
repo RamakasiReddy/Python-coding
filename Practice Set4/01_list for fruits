@@ -1,0 +1,9 @@
+frt1 = input("enter the first fruit name")
+frt2 = input("enter the second  fruit name")
+frt3 = input("enter the third fruit name")
+frt4 = input("enter the fourth name")
+frt5 = input("enter the fifth fruit name")
+frt6 = input("enter the sixth fruit name")
+frt7 = input("enter the seventh fruit name")
+lis1 = [frt1,frt2,frt3,frt4,frt5,frt6,frt7]
+print(lis1)
