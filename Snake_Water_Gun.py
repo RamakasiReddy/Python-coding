@@ -11,10 +11,9 @@ rev = {1 : "Snake", -1 : "Water",0 :"Gun"}
 
 you = playerDict[youstr]
 print(f"{rev[you]}\n{rev[computer]}")
-
 if(computer == you):
     print("both draw")
-elif(you == 1 and computer == 0 ):
+elif(you == -1 and computer == 1):
     print("you loose")
 elif(you == -1 and computer == 0):
     print("you win")
